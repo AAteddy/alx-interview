@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""docs"""
+"""Lockboxes Leetcode solution"""
 
 
 def canUnlockAll(boxes):
-    """docs"""
+    """a method that determines if all the
+    boxes can be opened"""
     total_boxes = len(boxes)
     setofkeys = [0]
     counter = 0
