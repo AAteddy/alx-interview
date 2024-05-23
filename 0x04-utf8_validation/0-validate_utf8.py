@@ -18,7 +18,6 @@ def validUTF8(data):
     """Checks if a given data set represents
     a valid UTF-8 encoding
     """
-    # number of bytes to process
     num_of_bytes = 0
 
     # Loop through each integer in the data list
