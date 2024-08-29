@@ -23,7 +23,7 @@ def island_perimeter(grid):
 
     for row in range(rows):
         for col in range(cols):
-            if grid[row][col] == 1:  # It's land
+            if grid[row][col] == 1:
                 # Check the four neighbors (up, down, left, right)
                 # Up
                 if row == 0 or grid[row - 1][col] == 0:
