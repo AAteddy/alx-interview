@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+"""Island Perimeter.
+ALX Interview Problem.
+"""
+
 def island_perimeter(grid):
     """
     Returns the perimeter of the island described in the grid.
