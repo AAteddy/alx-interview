@@ -12,6 +12,7 @@ def generatePrimeNumbers(limit):
                 sieveList[multiple] = False
     return primeNumbers
 
+
 def isWinner(numRounds, roundValues):
     """
     Determine the winner of the game
